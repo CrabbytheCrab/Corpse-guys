@@ -1,0 +1,3 @@
+<items gfxroot="gfx/Items/" version="1">
+  <passive id="33333999" devilprice="2" cache="TearVariant" gfx="HushDead.png" description="Hush tears" name="Necrosis"  type="passive" quality="4"/>
+</items>

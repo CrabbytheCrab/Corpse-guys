@@ -1,0 +1,7 @@
+<data>
+<!-- Level 2 Rotty -->
+<entity Group="Enemies" ID="226" Image="Rot.png" Kind="Variant" Name="Level 2 Rotty" Subtype="0" Variant="69" />
+<!-- Aged Boney -->
+<entity Group="Enemies" ID="227" Image="Bone.png" Kind="Variant" Name="Level 2 Rotty" Subtype="0" Variant="60" />
+
+</data>

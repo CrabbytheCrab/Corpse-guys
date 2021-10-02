@@ -1,0 +1,110 @@
+<entities anm2root="gfx/" version="5">
+	<entity id="226" variant="69" name="Level 2 Rotty" reroll="true" shieldStrength="5" baseHP="10" stageHP="5" boss="0" champion="0" collisionDamage="1" anm2path="lvl2rotty.anm2" friction="1" collisionMass="14" collisionRadius="13" numGridCollisionPoints="12" shadowSize="14" shutdoors="false">
+	<gibs amount="6" blood="1" bone="1" eye="0" gut="0" large="0" />
+	 <preload-snd id="165" /> <!-- SOUND_ZOMBIE_WALKER_KID -->
+        <preload-snd id="115" /> <!-- SOUND_MONSTER_ROAR_0 -->
+	</entity>
+	<entity id="227" variant="60" name="Aged Bony" reroll="true" baseHP="20" stageHP="4" boss="0" champion="0" collisionDamage="1" collisionMass="14" collisionRadius="13" friction="0" numGridCollisionPoints="12" shadowSize="14" portrait="104" anm2path="Agedboney.anm2">
+	<gibs amount="10" blood="0" bone="1" eye="0" gut="0" large="0" sound_bone="1" dust="1" />
+    <preload-snd id="116" /> <!-- SOUND_MONSTER_ROAR_1 -->
+    <preload-snd id="249" /> <!-- SOUND_SCAMPER -->
+	</entity>
+	<entity id="227" variant="60" subtype="1" name="Aged Bony(Classic)" reroll="true" baseHP="14" stageHP="2" boss="0" champion="0" collisionDamage="1" collisionMass="14" collisionRadius="13" friction="1" numGridCollisionPoints="12" shadowSize="14" portrait="104" anm2path="Agedboney1.anm2">
+        <gibs amount="10" blood="0" bone="1" eye="0" gut="0" large="0" sound_bone="1" dust="1" />
+        <preload-snd id="116" /> <!-- SOUND_MONSTER_ROAR_1 -->
+        <preload-snd id="249" /> <!-- SOUND_SCAMPER -->
+	</entity>	
+	    <entity id="235" variant="1" name="Hungry Gaping Maw" baseHP="100" stageHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="100" collisionRadius="13" friction="1" numGridCollisionPoints="0" shadowSize="24" portrait="98" anm2path="Hungry.anm2" shutdoors="false">
+	</entity>
+	<entity name="Peel" anm2path="Peel.anm2" id="850" variant="4" baseHP="30"  boss="0" champion="0" collisionDamage="2" collisionMass="10" collisionRadius="16" friction="1" numGridCollisionPoints="12" portrait="363" shadowSize="20" stageHP="0">
+	
+        <gibs amount="13" blood="1" bone="1" colorblood="1" eye="1" gut="1" large="0" worm="0"/>
+    </entity>
+	<entity name="Peel2" anm2path="Peel2.anm2" id="850" variant="8" baseHP="15" boss="0" champion="0" collisionDamage="2" collisionMass="10" collisionRadius="16" friction="1" numGridCollisionPoints="12" portrait="363" shadowSize="20" stageHP="0">
+	
+        <gibs amount="13" blood="1" bone="1" colorblood="1" eye="1" gut="1" large="0" worm="0"/>
+    </entity>
+	<entity id="307" variant="1" name="Hush Boy" reroll="true" baseHP="55" stageHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="100" collisionRadius="18" friction="1" numGridCollisionPoints="0" shadowSize="0" portrait="167" anm2path="Hushy.anm2" gridCollision="ground">
+		<gibs amount="5" blood="1" bone="0" eye="0" gut="0" large="0" />
+	</entity>
+	<entity anm2path="mini.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="16" collisionRadius="8" friction="1" id="2" name="MiniHushTear" numGridCollisionPoints="8" shadowSize="16" stageHP="0" variant="6969">
+<gibs amount="1" blood="0" bone="1" eye="0" gut="0" large="0" />
+</entity>
+    <entity anm2path="Gaaper.anm2" hasFloorAlts="false" reroll="true" baseHP="15" boss="0" champion="1" collisionDamage="1" collisionMass="5" collisionRadius="13" friction="1" id="10" name="Gaaper" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="666" portrait="1">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0" />
+        <preload-snd id="165" /> <!-- SOUND_ZOMBIE_WALKER_KID -->
+    </entity>
+	    <entity anm2path="BeggarHoly.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="3" collisionRadius="12" friction="1" id="6" name="Holy Beggar" numGridCollisionPoints="24" shadowSize="15" stageHP="0" variant="555" shutdoors="false">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0" />
+    </entity>
+	    <entity anm2path="Dead Meat.anm2" reroll="true" baseHP="15" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="872" name="Rotteny" numGridCollisionPoints="12" shadowSize="28" stageHP="0" variant="777" portrait="8">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="0" large="0" worm="1" />
+    </entity>
+    <entity anm2path="Bone2.anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="10" friction="1" id="9" name="Bone2" numGridCollisionPoints="8" shadowSize="15" stageHP="0" variant="7777">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+		<preload id="1000" variant="35" />
+    </entity>
+	    
+		   <entity anm2path="Corrupted.anm2" reroll="true" baseHP="20" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="41" name="Corrupted Knight" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="5599" portrait="37">
+		<bestiary transform="0,0,1" anim="Hori" />
+        <gibs amount="6" blood="0" bone="1" eye="0" gut="1" large="0" worm="1" />
+			</entity>
+		
+		<entity anm2path="VisHeart.anm2" reroll="true" baseHP="56" boss="0" champion="0" collisionDamage="0" collisionMass="30" collisionRadius="13" friction="1" id="92" name="VisHeart" numGridCollisionPoints="12" shadowSize="18" stageHP="0" variant="100" portrait="59">
+		<bestiary transform="0,0,1" anim="HeartAttack" />
+        <gibs amount="6" blood="1" bone="0" eye="0" gut="0" large="0" />
+		</entity>
+	<entity anm2path="VisMask.anm2" reroll="true" baseHP="40" boss="0" champion="0" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" id="93" name="VisMask" numGridCollisionPoints="12" shadowSize="15" stageHP="0" variant="100" portrait="58">
+		<bestiary transform="0,0,1" anim="Down" />
+        <gibs amount="6" blood="0" bone="1" eye="0" gut="0" large="0" />
+    </entity>
+	   <entity name="Visage Plasma(Small)" anm2path="plasma.anm2" id="903" variant="20" baseHP="20" boss="0" champion="0" collisionDamage="1" collisionMass="20" collisionRadius="6" friction="1" gridCollision="none" numGridCollisionPoints="12" portrait="234" shadowSize="25" subtype="2" shutdoors="false" stageHP="0" tags="noreroll nodelirium">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
+	
+	<entity anm2path="1000.096_HushLaser.anm2" baseHP="0" boss="1" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="30" friction="1" id="1000" name="Hush Laser 2" numGridCollisionPoints="1" shadowSize="0" stageHP="0" variant="99999">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+	
+	<entity anm2path="Rift.anm2" baseHP="9" boss="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="13" friction="1" id="306" name="MainRift" numGridCollisionPoints="0" shadowSize="24" stageHP="5" variant="10" shutdoors="true" portrait="160">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+	</entity>
+		<entity anm2path="Rift.anm2" baseHP="9" boss="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="13" friction="1" id="306" name="Rift" numGridCollisionPoints="0" shadowSize="24" stageHP="5" variant="10" shutdoors="true" portrait="160" subtype="1">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+	</entity>
+<entity anm2path="HomeRift.anm2" baseHP="9" boss="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="13" friction="1" id="306" name="HomeRift" numGridCollisionPoints="0" shadowSize="24" stageHP="5" variant="10" shutdoors="true" portrait="160" subtype="2">
+  <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+</entity>
+<entity anm2path="GenRift.anm2" baseHP="9" boss="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="13" friction="1" id="306" name="GenRift" numGridCollisionPoints="0" shadowSize="24" stageHP="5" variant="10" shutdoors="true" portrait="160" subtype="3">
+  <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+</entity>
+<entity anm2path="CalRift.anm2" baseHP="9" boss="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="13" friction="1" id="306" name="CalRift" numGridCollisionPoints="0" shadowSize="24" stageHP="5" variant="10" shutdoors="true" portrait="160" subtype="4">
+  <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+</entity>
+	   <entity anm2path="Delirious Cultist.anm2" reroll="true" baseHP="50" boss="0" champion="1" collisionDamage="0" collisionMass="7" collisionRadius="13" friction="1" id="22" name="Delirious Cultist" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="100" portrait="15">
+        <gibs amount="6" blood="1" bone="1" eye="0" gut="1" large="0" worm="1" />
+        <preload-snd id="143" /> <!-- SOUND_SCARED_WHIMPER -->
+        <preload-snd id="158" /> <!-- SOUND_WHEEZY_COUGH -->
+    </entity>
+		<entity anm2path="Delirious Gaper.anm2" reroll="true" baseHP="80" boss="0" champion="1" collisionDamage="1" collisionMass="5" collisionRadius="13" friction="1" id="284" name="Delirious Gaper" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="888" portrait="130">
+		<bestiary transform="0,0,1" anim="WalkVert" overlay="Attack" />
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0" />
+    </entity>
+   <entity name="Canary" anm2path="canary.anm2" id="227" variant="55" baseHP="16" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" numGridCollisionPoints="12" portrait="265" shadowSize="14" stageHP="2">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0"/>
+    </entity>
+	    <entity name="Foreigner" anm2path="foreigner.anm2" id="227" variant="55" subtype="1" baseHP="18" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" numGridCollisionPoints="12" portrait="288" shadowSize="14" stageHP="2">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0"/>
+    </entity>
+	   <entity anm2path="dellump.anm2" reroll="true" baseHP="80" boss="0" champion="0" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" id="56" name="DelLump" numGridCollisionPoints="12" shadowSize="0" stageHP="0" variant="999" portrait="45">
+        <gibs amount="6" blood="1" bone="0" eye="1" gut="1" large="0" />
+        <preload-snd id="226" /> <!-- SOUND_MEATHEADSHOOT -->
+        <preload-snd id="72" /> <!-- SOUND_MEAT_JUMPS -->
+    </entity>
+
+    <entity id="237" variant="999" name="Mother's Kin" reroll="true" baseHP="50" stageHP="4" boss="0" champion="0" collisionDamage="1" collisionMass="14" collisionRadius="13" friction="1" numGridCollisionPoints="12" shadowSize="22" portrait="100" anm2path="Mother kin.anm2">
+		<bestiary transform="0,0,1" anim="WalkRight" />
+        <gibs amount="4" blood="1" bone="0" eye="0" gut="0" large="0" />
+        <preload-snd id="57" /> <!-- SOUND_CHILD_ANGRY_ROAR -->
+    </entity>
+</entities>
